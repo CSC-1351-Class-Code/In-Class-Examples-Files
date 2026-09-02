@@ -32,10 +32,11 @@ public class ReadFiles{
 			input.close();
 		}
 
+		// May need a FileNotFound exception!
 		catch(FileNotFoundException error){
 			System.out.println("File wasn't found! We might need a search party!");
 		}
-
+		// May need an input/output exception!
 		catch(IOException error){
 			System.out.println(error);
 		}

@@ -21,6 +21,7 @@ public class Students {
 			outFile.println(student);
 		}
 
+		// Close Scanner and PrintWriter
 		outFile.close();
 		inUser.close();
 	}
